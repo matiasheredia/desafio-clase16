@@ -1,0 +1,36 @@
+header {
+  background-color: #2f2f2f;
+  padding: 5px;
+  position: sticky;
+  top: 0;
+  border-bottom: 3px solid #ffff00;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.secciones {
+  text-decoration: none;
+  list-style: none;
+  font-size: 17px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.secciones__lista {
+  text-decoration: none;
+}
+
+.secciones__listaVinculo {
+  text-decoration: none;
+  color: #c9cccb;
+  padding: 0 15px 0 15px;
+
+  &:hover {
+    color: yellow;
+  }
+}

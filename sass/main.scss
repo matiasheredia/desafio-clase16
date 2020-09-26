@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+/* CONTENEDOR */
+
+.contenedor {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HEADER */
+
+@import "nav";
+
+/* PARTE CENTRAL INDEX */
+
+@import "centralindex";
+
+/* PARTE ABAJO INDEX */
+
+#descripcioninicio {
+  font-size: 25px;
+  padding: 50px 0px 50px 0px;
+  text-align: center;
+}
+
+#cuadrosinicio {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cuadrosinicioposicion {
+  margin: 50px 50px 100px 50px;
+  padding: 15px 5px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid yellow;
+  border-radius: 15px;
+  width: 20%;
+}
+
+.cuadrosinicioposicion:hover {
+  border: 3px solid red;
+}
+
+section a {
+  text-decoration: none;
+  color: #2f2f2f;
+}
+
+/* QUIENES SOMOS */
+
+.misionvision {
+  margin: 50px;
+  border: 5px solid yellow;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+/* QUE HACEMOS */
+
+.margen {
+  margin: 40px;
+}
+
+/* GUIA */
+
+p div {
+  font-size: 20px;
+}
+
+/* GUIA */
+
+section ol li {
+  list-style: none;
+}
+
+.filasguia {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.numeros {
+  font-size: 90px;
+  margin: 0px 50px 0px 0px;
+}
+
+/* FAQs */
+
+.faqs {
+  font-size: 500px;
+}
+
+/* CONTACTANOS */
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+/* PIE DE PAGINA */
+
+footer {
+  font-weight: bold;
+  background: #ecebeb;
+  border-top: 3px solid yellow;
+  position: relative;
+  margin: 300px 0px 0px 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-self: flex-end;
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+  header {
+    position: unset;
+  }
+  .contenedor {
+    width: 90%;
+  }
+  #navcontactanos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body {
+    width: 100vw;
+  }
+  .secciones {
+    width: 100vw;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  dl,
+  ol,
+  ul {
+    margin-bottom: 0;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .datosfooter {
+    display: none;
+  }
+}

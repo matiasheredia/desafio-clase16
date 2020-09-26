@@ -1,0 +1,25 @@
+.logo {
+  background-color: black;
+  color: #c9cccb;
+  height: 95vh;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo__index {
+  align-items: center;
+  padding: 5px;
+}
+
+.logo__slogan {
+  font-size: 30px;
+}
+
+.puntorojo {
+  color: #ff0000;
+}
